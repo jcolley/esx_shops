@@ -30,8 +30,6 @@ local shops = {
 	"VanillaUnicorn",
 	"BahamaMama",
 	"TequilaLaLa"
-
-
 }
 
 local CustomCss = {
@@ -140,7 +138,7 @@ Citizen.CreateThread(function()
 			local blip = AddBlipForCoord(v.Pos[i].x, v.Pos[i].y, v.Pos[i].z)
 
 			SetBlipSprite (blip, 52)
-			SetBlipScale  (blip, 1.0)
+			SetBlipScale  (blip, 0.8)
 			SetBlipColour (blip, 2)
 			SetBlipAsShortRange(blip, true)
 
